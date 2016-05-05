@@ -1,11 +1,22 @@
+/*
+	Arquivo CSS padrão, 
+	evitem editar o padrão, criem um outro arquivo e importem os 2 please.
+	
+	
+	
+
+
+
+*/
+
 body {
-	background-color: #2979FF;
-	display: block;
-	margin:8px;
-	background: -webkit-linear-gradient(left top, #2979FF, #82B1FF); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #2979FF, #82B1FF); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #2979FF, #82B1FF); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #2979FF, #82B1FF); /* Standard syntax */
+	background-color: #2979FF;											/* Azul não tão claro */
+	display: block;														
+	margin:8px;																	
+	background: -webkit-linear-gradient(left top, #2979FF, #82B1FF); 	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #2979FF, #82B1FF); 	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #2979FF, #82B1FF); 	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #2979FF, #82B1FF); 	/* Standard syntax */
 }
 
 div {
@@ -13,7 +24,7 @@ div {
 }
 
 a {
-	color: white;
+	color: white;							
 	text-decoration: none;
 }
 
@@ -24,7 +35,7 @@ a:hover {
 	text-decoration: none;
 }
 
-#wrapper {
+#centro {
 	min-height: 100%;
 	margin: 0 auto 0;
 	width: 55%;
@@ -34,6 +45,7 @@ a:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* CSS para a Logo */
 #header {
 	background-image: url("TUDOCERTOHEADER.png");
 	max-width: 775px;
@@ -45,6 +57,7 @@ a:hover {
 	
 }
 
+/* CSS para o conteúdo da Logo */
 #headercontent{
 	font-family: Verdana;
 	color: white;
@@ -52,7 +65,7 @@ a:hover {
 	margin-left: 150px;
 }
 	
-
+/* CSS para o menu */
 #menu {
 	min-height: 7%;
 	margin: 0 auto 0;
@@ -67,13 +80,15 @@ a:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* CSS para o conteúdo do Menu */
 #menucontent {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-
+ 
+/* CSS para as span dentro do menu */ 
 #menu span {
 	display: inline-block;
 	padding: 10px;
