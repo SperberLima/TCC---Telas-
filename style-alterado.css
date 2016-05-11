@@ -10,7 +10,7 @@
 */
 
 body {
-	background-color: #b9f6ca;											/* Azul não tão claro */
+	background-color: #f44336 ;											/* Azul não tão claro */
 	display: block;														
 	margin:8px;																	
 }
@@ -33,8 +33,6 @@ a:hover {
 
 #centro {
 	min-height: 100%;
-	margin: 0 auto 0;
-	width: 55%;
 	background-color: #fafafa;
 	text-align: center;
 	z-index: 0;
@@ -93,4 +91,46 @@ a:hover {
 	font-family: Verdana;
 }
 
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin: -10;
+    margin-bottom: 0.5;
+    margin-top: -10;
+border: 1px solid transparent;
+}
 
+.navbar-nav {
+	float: right;
+}
+.nav navbar-nav{
+	box-sizing: content-box;
+}
+
+.t_cadastro {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+td, th {
+	padding: 0;
+	display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+	border: none;
+}
