@@ -1,0 +1,96 @@
+/*
+	Arquivo CSS padrão, 
+	evitem editar o padrão, criem um outro arquivo e importem os 2 please.
+	
+	
+	
+
+
+
+*/
+
+body {
+	background-color: #b9f6ca;											/* Azul não tão claro */
+	display: block;														
+	margin:8px;																	
+}
+
+div {
+	display: block;
+}
+
+a {
+	color: white;							
+	text-decoration: none;
+}
+
+a:hover {
+	color: #BBDEFB;
+	-webkit-transition: color 0.5s; /* Safari */
+    transition: color 0.5s;
+	text-decoration: none;
+}
+
+#centro {
+	min-height: 100%;
+	margin: 0 auto 0;
+	width: 55%;
+	background-color: #fafafa;
+	text-align: center;
+	z-index: 0;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* CSS para a Logo */
+#header {
+	background-image: url("TUDOCERTOHEADER.png");
+	max-width: 775px;
+	margin: 0 auto 0;
+	min-height: 10%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+/* CSS para o conteúdo da Logo */
+#headercontent{
+	font-family: Verdana;
+	color: black;
+	font-size: 40px;
+	margin-left: 150px;
+}
+	
+/* CSS para o menu */
+#menu {
+	min-height: 7%;
+	margin: 0 auto 0;
+	width: 60%;
+	background-color: #212121;
+	z-index: 2;
+	text-align: center;
+	position: relative;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* CSS para o conteúdo do Menu */
+#menucontent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+ 
+/* CSS para as span dentro do menu */ 
+#menu span {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	font-size: 28px;
+	font-family: Verdana;
+}
+
+
