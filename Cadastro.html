@@ -35,6 +35,7 @@
 		<script src="script.js"></script>
 		<style>
 			@import url("style.css");
+			@import url("Tela_Cadastro.css");
 		</style>
 	</head>
 
@@ -87,8 +88,60 @@
 
 			<div id="centro_cadastro" class="centro_cadastro">
 
-				
+				<span id="titulo" class="titulo" style ="font-size: 40;">Cadastro</span>
+
+				<br>
+				<br>
+
+				<form name=  "cadastro" method=  "post" action=  "" id=  "cadastro ">   
+
+					<table class = "table_cadastro">
+
+						<tr>
+							<td>Nome:</td>
+							<td><input type=  "text" id=  "nome" class=  "t_cadastro" name=  "nome"></td>
+						</tr>
+
+						<tr>
+							<td>Login:</td>
+							<td><input type=  "text" id=  "nome_usuario" class=  "t_cadastro" name=  "nome_usuario" ></td>
+						</tr>
+
+						<tr>
+							<td>Telefone:</td>
+							<td><input type=  "tel" id=  "telefone" class=  "t_cadastro" name=  "tel"></td>
+						</tr>
+
+						<tr>
+							<td>Email:</td>
+							<td><input type="email" id="email" class="t_cadastro" name="email"></td>
+						</tr>
+
+						<tr>
+							<td>Confirmar Email:</td>
+							<td><input type="email" id="email" class="t_cadastro" name="email"></td>
+						</tr>
+
+						<tr>
+							<td>Senha:</td>
+							<td><input type="password" id="senha" class="t_cadastro" name="senha"></td>
+						</tr>
+
+						<tr>
+							<td>Confirmar Senha:</td>
+							<td><input type="password" id="senha" class="t_cadastro" name="senha"></td>
+						</tr>
+					
+						<tr class="t" >
+							<td colspan="2" style= "text-align: center"><input type="submit" id="cadastrar" class="b_" value="Cadastrar"></td>
+						</tr>
+
+					</table>
+
+				</form>
+
 			</div>
+			
 		</div>
     </div>
 

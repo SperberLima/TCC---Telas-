@@ -1,0 +1,28 @@
+.centro{
+	text-align: center;
+	margin: 10%;
+
+}
+
+.b_{
+
+	width: 170px;
+	padding: 12px;
+	background-color: #90a4ae; 
+	border: none;
+	border-radius: 20px;
+	font-family: Century Gothic;
+	font-size: 16px;
+	color: white;
+}
+
+.centro_cadastro{
+	margin-left: 90px;
+	
+}
+
+table{
+	text-align: center;
+	float: center;
+}
+
