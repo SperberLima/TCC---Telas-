@@ -39,6 +39,7 @@ td{
 	border: solid black;
 }
 
+
 #centro {
 	min-height: 100%;
 	background-color: #fafafa;
@@ -81,6 +82,16 @@ td{
 	border-radius: 10px;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
+
+/*Padronização pros títulos*/
+
+.titulo{
+  font-size: 40px; 
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+
+
 
 /* CSS para o conteúdo do Menu */
 #menucontent {
