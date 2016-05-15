@@ -1,0 +1,56 @@
+.content_login {
+	float:left;
+	margin-left:20%;
+	text-align:left;
+}
+
+.fonte {
+	font-size: 20px;
+	color:#1f1f14;
+}
+.ops {
+	float:left;
+	font-size: 18px;
+	color:#333333;
+	text-align:center;
+}
+
+.ops:visited {
+	text-decoration:none;
+}
+
+.ops:hover{
+	color:gray;
+}
+
+/* botão de entrar */
+input[type="button"] {
+	float:left;	
+    margin-left:50%;
+	width: 40%;
+	height:140%;	
+	font-size: 20px;
+	background-color:cccccc; 
+	border: none;
+	border-radius:15px;
+}
+
+input[type="text"] {
+    margin-left: 5%;
+	font-size: 16px;
+	width: 90%;
+	color:#3e3e28;
+}
+
+input[type="password"] {
+    margin-left: 5%;
+	font-size: 16px;
+	width: 90%;
+	color:#3e3e28;
+}
+
+/* Topo do centro, onde está o título: "LOGIN" */
+#centro {
+	background-color:#f2f2f2;
+	height: 100%;
+}
