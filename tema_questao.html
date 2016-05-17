@@ -35,7 +35,7 @@
 		<script src="script.js"></script>
 		<style>
 			@import url("style.css");
-			@import url("style_login.css");
+			@import url("tema_questao.css");
 		</style>
 	</head>
 
@@ -87,35 +87,68 @@
        <div id=  "centro" class=  "">
 
 			<div class="titulo">
-				<span class="content_titulo">Login</span>
+				<span class="content_titulo">Escolha o Tema</span>
 			</div>
+
 			
 			<div class = "content_login">
 				<form method = "POST"> <!-- action = "*.php" -->
-
-					<table id = "tabela" >
-						<tr> 
-							<span class = "fonte" >Username:</span> <input type = "text" id = "cam_username" />
-						</tr>
+					<ul type = "square" class = "lista_mat">	<!-- lista_mat = lista de matérias -->
+						<div>
+							<li class="mat" > Matemática 		<!-- mat = matérias -->
+							
+								<ul class = "lista_as" >							<!-- lista_as = lista de assuntos --> 
+									<li> <a>Álgebra</a> </li>
+									<li> <a>Geometria</a> </li>
+									<li> <a>Sistemas</a> </li>
+								</ul>
+							</li>
+						</div>
+						<div>
+							<li class="mat" > Literatura 		<!-- mat = matérias -->
+							
+								<ul class = "lista_as" > 							<!-- lista_as = lista de assuntos -->
+									<li> <a>Álgebra</a> </li>
+									<li> <a>Geometria</a> </li>
+									<li> <a>Sistemas</a> </li>
+								</ul>
+							</li>
+						<div>	
+						</div>	
+							<li class="mat" > Geografia
+														
+								<ul class = "lista_as" > 			<!-- lista_as = lista de assuntos -->
+									<li> <a>Vegetação</a> </li>
+									<li> <a>Geometria</a> </li>
+									<li> <a>Sistemas</a> </li>
+								</ul>
+							</li>
+						</div>	
 						
-						<tr>
-							<span class = "fonte">Senha:</span> <input type = "password" id = "cam_senha" /> 
-						</tr>
 						
-						<tr>
-							<td ><input type = "button"  value = "Entrar" class ="_b" /></td> 
-						</tr>
-						
-						<tr> 
-							<td> <br> </td>
-						</tr> 
-						
-						<tr>
-							<td><div><a class="ops" href="#" >Esqueceu sua senha?</a> </div></td>
-							<td><div><a class="ops" href="#" >Cadastre-se</a> </div></td>
-						</tr>
-						
-					</table>
+							<!--
+							História, Geografia, Filosofia e
+Sociologia
+Ciências da Natureza e suas Tecnologias
+Química, Física e
+Biologia
+Linguagens, Códigos e suas Tecnologias e
+Redação
+Língua Portuguesa, Literatura, Língua
+Estrangeira (Inglês ou Espanhol), Artes,
+Educação Física e Tecnologias da
+Informação e Comunicação
+Matemática e suas Tecnologias
+Matemática
+							-->
+							<li>	
+								<ul>	
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</li>	
+					</ul>
 				</form>		
 			</div>
 		</div>	
