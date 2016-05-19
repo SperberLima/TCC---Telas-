@@ -1,0 +1,51 @@
+.centro{
+	text-align: center;
+	margin: 10%;
+
+}
+
+.centro_cadastro{
+	margin-left: 90px;
+	width: 85%;
+	
+}
+
+.texto {
+	text-align: justify;
+}
+
+.referencia {
+	font-style: italic;
+	text-align: center;
+}
+
+.questao-opcoes {
+	list-style: none;
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+
+.questao-opcoes .opcao-item {
+	margin-bottom: 12px;
+}
+
+.questao-opcoes .letra, .questao-opcoes .corpo-conteudo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.letra {
+	font-family: "ProximaNovaA-SemiBold";
+	font-size: 10px;
+	font-weight: lighter;
+}
+
+.corpo-conteudo {
+	color: #888;
+	width: 588px;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
