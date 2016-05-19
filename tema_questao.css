@@ -1,10 +1,53 @@
-ul li ul li {
+.mat {
+	padding: 14px 22px;
+    z-index: 2;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    background-color: #7ecea6;
+	
+}
+
+.mat ul li {
 	display:none;
-	color:yellow;	
+	color:black;	
 }
 
-ul li:hover ul li{ 
+
+.mat:hover ul li{ 
 	display:block;
+	z-index: 3;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
 }
 
+
+
+label {
+	color:black;
+    font-size: 14px;
+    font-size: 14px;
+}
+
+.linha2 {
+	display:flex;
+	
+}
+
+.lista_as li a {
+	-webkit-transition:	all 2s linear;
+	-moz-transition: all 2s linear;
+}
+
+.col1 {	
+	position: absolute; 
+	margin-left: 15%;	
+}
+
+.col2 {	
+	position: absolute; 
+	margin-left: 45%;	
+}
 
