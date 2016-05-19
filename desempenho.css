@@ -1,0 +1,34 @@
+.acertos{
+	color: green;
+}
+
+.erros{
+	color: red;
+}
+
+.titulo_m{
+	text-transform: none;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.titulo_p{
+	text-transform: none;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.titulo_pp{
+	text-transform: none;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+.assunto_x li{
+	display: none;
+}
+
+.assunto_x:hover li{
+	display: block;
+}
