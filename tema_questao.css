@@ -1,5 +1,5 @@
 .mat {
-	padding: 14px 22px;
+    padding: 14px 22px;
     z-index: 2;
     font-size: 14px;
     text-decoration: none;
@@ -27,13 +27,8 @@
 
 label {
 	color:black;
-    font-size: 14px;
-    font-size: 14px;
-}
-
-.linha2 {
-	display:flex;
-	
+	font-size: 14px;
+	font-size: 14px;
 }
 
 .lista_as li a {
@@ -41,13 +36,26 @@ label {
 	-moz-transition: all 2s linear;
 }
 
-.col1 {	
-	position: absolute; 
-	margin-left: 15%;	
+.line1 {	
+	
 }
 
-.col2 {	
-	position: absolute; 
-	margin-left: 45%;	
-}
+.line2 {
+	}
 
+
+#item1 {
+	top:20%;
+}
+#item2 {
+	top:40%;
+
+}
+#item3 {
+	top:20%;
+	left:20%;	
+}
+#item4 {
+	top:40%;
+	left:20%;
+}
