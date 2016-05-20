@@ -1,0 +1,10 @@
+div#content {
+	margin: 0 auto 0 auto;
+	padding-top: 3%;
+}
+
+#content h1, #content h2 {
+	color: #00BFA5;
+	font-family: 'Doppio One', sans-serif;
+}
+

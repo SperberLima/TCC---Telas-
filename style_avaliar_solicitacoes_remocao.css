@@ -1,0 +1,36 @@
+div#content {
+	margin: 0 auto 0 auto;
+	padding-top: 3%;
+	text-align: center;
+}
+
+#content table {
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+	max-width: 80%;
+}
+
+table, tr, td {
+	border: 1px solid black;
+}
+
+tr:first-child td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: bold;
+}
+
+td {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+td:last-child {
+	width: 120px !important;
+}
+
+td:nth-child(2) {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
