@@ -1,0 +1,177 @@
+<!-- 
+	Esse é um molde para fazer as outras telas.
+	
+	
+	Código feito por esses putos:
+	
+		-Darion, Darlan, Carlos;
+		-MBSL
+		-JSLima
+		-Marcola
+		-Eu
+	
+	******************************************************************************
+	*Deêm nome nesse arquivo igual ao nome da tela no template do TCC no Dropbox.*	
+ 	******************************************************************************
+	
+-->
+
+<html>
+	
+	<head>
+		<!-- Seleciona a codificação dos caracteres a ser usado: (UNICODE -> UTF-8) -->
+		<meta charset = "UTF-8" />
+		
+		<!-- Título da página -->
+		<title>	Tudo certo pro concurso? </title>	
+		
+		<!-- Importa o CSS respectivo para esta tela -->
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="script.js"></script>
+		<style>
+			@import url("style.css");
+			@import url("listarQuestao.css");
+		</style>
+	</head>
+
+	<body>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="#"><i class="material-icons md-48">school</i></a>
+		</div>
+		<ul class="nav navbar-nav">
+		  <li class="active"><a href="#">Entrar</a></li>
+		</ul>
+	</div>
+	</nav>
+		
+	<div class="row">
+
+    <div class="col s12 m4 l3">
+		<div id='cssmenu'>
+		<ul>
+		   <li class='has-sub'><a href='#'>Usuário</a>
+				<ul>
+					   <li><a href='#'>Cadastrar</a></li>
+					   <li><a href='#'>Duvidas Frequentes</a></li>
+				</ul>
+			</li>
+		   <li class='has-sub'><a href='#'>Começar Atividades</a>
+			  <ul>
+				 <li><a href='#'>Perguntas Aleatórias</a></li>
+				 <li class = 'has-sub'><a href='#'>Perguntas por Área</a>
+					<ul>
+					   <li><a href='#'>Ciências da Natureza e suas Técnologias</a></li>
+					   <li><a href='#'>Ciências Humanas e suas Técnologias</a></li>
+					   <li><a href='#'>Matemática e suas Técnologias</a></li>
+					   <li><a href='#'>Linguagens, Códigos e suas Técnologias</a></li>
+					</ul>
+				 </li>
+				 <li><a href='#'>Perguntas por Tempo</a></li>
+			  </ul>
+		   </li>
+		   <li><a href='#'>Dicas de Redação</a></li>
+		   <li><a href='#'>Sobre</a></li>
+		   <li><a href='#'>Contato</a></li>
+		</ul>
+		</div>
+    </div>
+
+    <div class="col s12 m8 l9">
+       <div id=  "centro" class=  "">
+
+			<div id="centroPesquisa" class="centroPesquisa">
+				<div id="title">Pesquisa das Questões</div>
+					<table id="filtro" class="filtro">
+						<tr>
+				       		<td>
+				       			Criador:
+				       		</td>
+				       		<td>
+				       			<select multiple class="criadorQuestao" class="criadorQuestao">
+									<option>C1</option>
+									<option>Cria        dor 2</option>
+									<option>Criar 3</option>
+									<option>Criaor 4</option>
+									<option>Criaaador 5</option>
+									<option>Cri 6</option>
+									<option>Crior 7</option>
+									<option>Criado 8</option>
+								</select>
+							</td>
+							<td>
+								Data de Criação:
+							</td>
+							<td>
+								<input type="date" class = "dataCriacao" id="dataCriacao">
+							</td>
+							<td>
+								Matéria:
+							</td>
+							<td>
+								<select multiple class="materiaQuestao" class="materiaQuestao">
+									<option>Matemática</option>
+									<option>Linguagens</option>
+									<option>Ciências Humanas</option>
+									<option>Ciências da Natureza</option>
+							</td>
+							<td>
+								Assunto:
+							</td>
+							<td>
+								<select multiple class="assuntoQuestao" id="assuntoQuestao">
+									<option>Assunto 1</option>
+									<option>Assunto 2</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+					<br><br>
+				<center><input type="button" value="Pesquisar"/><center>
+			</div>
+			
+			<div id="resultadoPesquisa" class="centroPesquisa">
+				<table id="resultadoTabela" class="resultadoTabela">
+					<tr id="cabecalhoResultado" class="cabecalhoResultado">
+						<td>
+							<a href="">Código</a>
+						</td>
+						<td>
+							<a href="">Criador</a>
+						</td>
+						<td>
+							<a href="">Matéria</a>
+						</td>
+						<td>
+							<a href="">Assunto</a>
+						</td>
+					</tr>
+					<tr id="resultado" class="resultado">
+						<td id="resultadoCodigo" class="resultadoCodigo">
+							0001
+						</td>
+						<td id="resultadoCriador" class="resultadoCriador">
+							Carlos Almeida
+						</td>
+						<td id="resultadoMateria" class="resultadoMateria">
+							Matemática
+						</td>
+						<td id="resultadoAssunto" class="resultadoAssunto">
+							Retas
+						</td>
+					</tr>
+			</div>
+		</div>
+    </div>
+
+    </div>
+    </body>
+
+</html>

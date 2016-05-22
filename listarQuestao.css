@@ -1,0 +1,61 @@
+.centro{
+	text-align: center;
+	margin: 10%;
+}
+
+.centroPesquisa{
+	margin-left: 90px;
+	width: 90%;
+	
+}
+
+table {
+	text-align: justify;
+	float: center;
+	width:100%;
+}
+
+.centroPesquisa table td {
+	padding: 5px;
+}
+
+#title {
+	font-size:20px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.centroPesquisa table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	text-align: justify;
+	padding: 10px;
+}
+
+.resultadoTabela tr td {
+	width: 25%;
+	text-align: center;
+}
+
+
+select {
+	border: none;
+	height: 15px;
+	width: 180px;
+}
+
+.cabecalhoResultado {
+	background-color: black;
+	color: white;
+	height: 50px;
+	font-size: 20px;
+}
+
+.resultado {
+	background-color: #3ab4a6;
+	color: black;
+}
