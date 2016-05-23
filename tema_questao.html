@@ -40,128 +40,122 @@
 	</head>
 
 	<body>
-	<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Logo</a>
-			</div>
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Entrar</a></li>
-			</ul>
-		</div>
-	</nav>
-		
-	<div class="row">
-
-		<div class="col s3">
-			<div id='cssmenu'>
-			<ul>
-			   <li class='has-sub'><a href='#'>Usuário</a>
-					<ul>
-						   <li><a href='#'>Cadastrar</a></li>
-						   <li><a href='#'>Duvidas Frequentes</a></li>
-					</ul>
-				</li>
-			   <li class='has-sub'><a href='#'>Começar Atividades</a>
-				  <ul>
-					 <li><a href='#'>Perguntas Aleatórias</a></li>
-					 <li class = 'has-sub'><a href='#'>Perguntas por Área</a>
-						<ul>
-						   <li><a href='#'>Ciências da Natureza e suas Técnologias</a></li>
-						   <li><a href='#'>Ciências Humanas e suas Técnologias</a></li>
-						   <li><a href='#'>Matemática e suas Técnologias</a></li>
-						   <li><a href='#'>Linguagens, Códigos e suas Técnologias</a></li>
-						</ul>
-					 </li>
-					 <li><a href='#'>Perguntas por Tempo</a></li>
-				  </ul>
-			   </li>
-			   <li><a href='#'>Dicas de Redação</a></li>
-			   <li><a href='#'>Sobre</a></li>
-			   <li><a href='#'>Contato</a></li>
-			</ul>
-			</div>
-		</div>
-
-		<div class = "col s9">
-		   <div id=  "centro" class=  "">
-
-				<div class="titulo">
-					<span class="content_titulo">Escolha o Tema</span>
+		<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Logo</a>
 				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Entrar</a></li>
+				</ul>
+			</div>
+		</nav>
+			
+		<div class="row">
 
-					<!-- Fazer com que onde existe mat seja um link e fazer igual  as dicas de redação -->
-				<div class = "centro">
-					<form method = "POST"> <!-- action = "*.php" -->
-						<ul class = "lista_mat">	<!-- lista_mat = lista de matérias -->
-							<div class= "line1">
-								<div id="item1" >  
+			<div class="col s3">
+				<div id='cssmenu'>
+				<ul>
+				   <li class='has-sub'><a href='#'>Usuário</a>
+						<ul>
+							   <li><a href='#'>Cadastrar</a></li>
+							   <li><a href='#'>Duvidas Frequentes</a></li>
+						</ul>
+					</li>
+				   <li class='has-sub'><a href='#'>Começar Atividades</a>
+					  <ul>
+						 <li><a href='#'>Perguntas Aleatórias</a></li>
+						 <li class = 'has-sub'><a href='#'>Perguntas por Área</a>
+							<ul>
+							   <li><a href='#'>Ciências da Natureza e suas Técnologias</a></li>
+							   <li><a href='#'>Ciências Humanas e suas Técnologias</a></li>
+							   <li><a href='#'>Matemática e suas Técnologias</a></li>
+							   <li><a href='#'>Linguagens, Códigos e suas Técnologias</a></li>
+							</ul>
+						 </li>
+						 <li><a href='#'>Perguntas por Tempo</a></li>
+					  </ul>
+				   </li>
+				   <li><a href='#'>Dicas de Redação</a></li>
+				   <li><a href='#'>Sobre</a></li>
+				   <li><a href='#'>Contato</a></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class = "col s9">
+			   <div id=  "centro" >
+			   
+					<div class="titulo">
+						<span class="content_titulo">Escolha o Tema</span>
+					</div>
+
+						<!-- Fazer com que onde existe mat seja um link e fazer igual  as dicas de redação -->
+					<div class="listas" >
+						<form method = "POST"> <!-- action = "*.php" -->
+							<ul class = "lista_mat">	<!-- lista_mat = lista de matérias -->
+								<div >  
 									<li class="mat" > Ciência da Natureza e suas Tecnologias 		<!-- mat = matérias -->
-									
-										<ul > 			<!-- lista_as = lista de assuntos -->
-											<li> <input class="with-gap" name="group1" type="radio" id="test1" />
+										
+										<ul class= "lista_as"> 			<!-- lista_as = lista de assuntos -->
+											<li> <input class="with-gap" type="radio" id="test1" />
 											<label for="test1">Assunto X</label>  </li>
-											<li> <input class="with-gap" name="group1" type="radio" id="test2" />
+											<li> <input class="with-gap" type="radio" id="test2" />
 											<label for="test2">Assunto Y</label>  </li>
-											<li> <input class="with-gap" name="group1" type="radio" id="test3"  />
+											<li> <input class="with-gap" type="radio" id="test3"  />
 											<label for="test3">Assunto Z</label>  </li>
 										</ul>
 									</li>
 								</div>
-								<div id="item2">
-	
+								<div>
 									<li class="mat" > Ciências Humanas e suas Tecnologias 		<!-- mat = matérias -->
-									
+										
 										<ul > 			<!-- lista_as = lista de assuntos -->
-											<li> <input class="with-gap" name="group2" type="radio" id="test4" />
+											<li> <input class="with-gap" type="radio" id="test4" />
 											<label for="test4">Assunto X</label>  </li>
-											<li> <input class="with-gap" name="group2" type="radio" id="test5" />
+											<li> <input class="with-gap" type="radio" id="test5" />
 											<label for="test5">Assunto Y</label>  </li>
-											<li> <input class="with-gap" name="group2" type="radio" id="test6"  />
+											<li> <input class="with-gap" type="radio" id="test6"  />
 											<label for="test6">Assunto Z</label>  </li>
 										</ul>
 									</li>
 								</div>	
-							</div>
-							<div class= "line2">
-								<div id="item3">	
+								<div >	
 									<li class="mat" > Matemática e suas Tecnologias
 																
 										<ul > 			<!-- lista_as = lista de assuntos -->
-											<li> <input class="with-gap" name="group3" type="radio" id="test7" />
+											<li> <input class="with-gap" type="radio" id="test7" />
 											<label for="test7">Assunto X</label>  </li>
-											<li> <input class="with-gap" name="group3" type="radio" id="test8" />
+											<li> <input class="with-gap" type="radio" id="test8" />
 											<label for="test8">Assunto Y</label>  </li>
-											<li> <input class="with-gap" name="group3" type="radio" id="test9"  />
+											<li> <input class="with-gap" type="radio" id="test9"  />
 											<label for="test9">Assunto Z</label>  </li>
 										</ul>
 									</li>
-								
+									
 								</div>	
-								<div id="item4">
+								<div >
 									<li class="mat" > Linguagens, Códigos e suas Tecnologias
-																
+																	
 										<ul > 			<!-- lista_as = lista de assuntos -->
-											<li> <input class="with-gap" name="group4" type="radio" id="test10" />
+											<li> <input class="with-gap" type="radio" id="test10" />
 											<label for="test10">Assunto X</label>  </li>
-											<li> <input class="with-gap" name="group4" type="radio" id="test11" />
+											<li> <input class="with-gap" type="radio" id="test11" />
 											<label for="test11">Assunto Y</label>  </li>
-											<li> <input class="with-gap" name="group4" type="radio" id="test12"  />
+											<li> <input class="with-gap" type="radio" id="test12"  />
 											<label for="test12">Assunto Z</label>  </li>
 										</ul>
 									</li>
 								</div>	
-							</div>		
-						</ul>
-				</div>		
-			</div>	
+							</ul>
+							<hr>
+							<input type = "submit" value="Começar!" class="submit" /> 
+							<br> <br>
+						</form>
+					</div>		
+				</div>	
+			</div>
 		</div>
-		
-		
-
-    </div>
-	
-	
 	</body>
 
 </html>

@@ -11,6 +11,7 @@
 	color:#1f1f14;
 }
 .ops {
+	
 	float:left;
 	font-size: 18px;
 	color:#333333;
@@ -26,7 +27,7 @@
 }
 
 /* botão de entrar */
-input[type="button"] {
+.submit {
 	width: 170px;
 	padding: 12px;
 	background-color: #90a4ae; 
