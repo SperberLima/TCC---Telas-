@@ -1,4 +1,4 @@
-.dicas #cssmenu ul ul li a {
+/*.dicas #cssmenu ul ul li a {
     padding: 14px 22px;
     cursor: pointer;
     z-index: 2;
@@ -10,7 +10,7 @@
     -o-transition: color .2s ease;
     transition: color .2s ease;
     text-align: justify;
-}
+}*/
 
 .mrk{
     background-color: #AFEEEE;

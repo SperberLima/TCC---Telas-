@@ -1,14 +1,14 @@
-div#content {
+/*div.bloco {
 	margin: 0 auto 0 auto;
 	padding-top: 3%;
 	text-align: center;
 }
 
-#content table {
+.bloco table {
 	margin: 0 auto 0 auto;
 	border-collapse: collapse;
 	max-width: 80%;
-}
+}*/
 
 table, tr, td {
 	border: 1px solid black;
